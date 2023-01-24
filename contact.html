@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swarup Biswal</title>
+    <link rel="shortcut icon" href="./assets/codeImg.jpg" type="image/x-icon" />
+    <link href="assets/styles/main.css" rel="stylesheet" />
+    <link href="assets/styles/contact.css" rel="stylesheet" />
+    <link href="assets/styles/header.css" rel="stylesheet" />
+    <link href="assets/styles/footer.css" rel="stylesheet" />
+    <link href="assets/styles/lightTheme.css" rel="stylesheet" id="themeLink" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body onload="themeUpdate()">
+    <div class="row header">
+      <div class="mobileHeader">
+        <div class="col-12 firstRow">
+          <div class="portfolioName">
+            <a href="index.html">Swarup Biswal</a>
+          </div>
+          <div class="themeBtnDiv">
+            <i
+              class="fa-solid themeBtn themeBtn1 fa-lightbulb"
+              onclick="changeTheme1()"
+            ></i>
+          </div>
+        </div>
+        <div class="col-12 menuList">
+          <a href="./index.html"><input type="button" value="Home" /></a>
+          <!-- <a href="work.html"><input type="button" value="Work" /></a> -->
+          <a href="contact.html"><input type="button" value="Contact" /></a>
+        </div>
+      </div>
+      <div class="col-12 desktopHeader">
+        <div class="col-4 portfolioName">
+          <a href="index.html">Swarup Biswal</a>
+        </div>
+        <div class="col-6 menuList">
+          <a href="./index.html"><input type="button" value="Home" /></a>
+          <!-- <a href="work.html"><input type="button" value="Work" /></a> -->
+          <a href="contact.html"><input type="button" value="Contact" /></a>
+        </div>
+        <div class="col-2 themeBtnDiv">
+          <i
+            class="fa-solid themeBtn themeBtn2 fa-lightbulb"
+            onclick="changeTheme2()"
+          ></i>
+        </div>
+      </div>
+    </div>
+    <div class="row main">
+      <div class="row contactMainBox">
+        <h1>
+          <u style="color: rgba(40, 248, 58, 0.76); font-size: 1.8rem"
+            >CONTACT ME</u
+          >
+        </h1>
+        <div class="text col-9">
+          <p style="background: transparent">
+            Feel free to reach out to me at
+            <a
+              href="mailto:swarupbiswal07@gmail.com"
+              style="
+                background: transparent;
+                color: #63e044;
+                text-decoration: none;
+              "
+            >
+              swarupbiswal07@gmail.com
+            </a>
+            . Alternatively, on any of these platforms -
+          </p>
+          <div class="col-12 socialContacts">
+            <a href="https://t.me/swarup_z"
+              ><i class="fa-brands fa-telegram"></i
+            ></a>
+            <a href="https://discordapp.com/users/GodMod.io#7789/" target="_blank"
+              ><i class="fa-brands fa-discord"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/swarup-biswal-04a939150/" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://twitter.com/Swarupbiswal8" target="_blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+        <br />
+        <a href="./assets/Swarup's Resume-hackerresume.pdf">
+          <button class="cvBtn">
+            View my resume
+            <i
+              class="fa-solid fa-arrow-right"
+              style="background: transparent; color: orange"
+            ></i>
+          </button>
+        </a>
+      </div>
+    </div>
+    <div class="row footer">
+      <div class="col-12 socials">
+        <a href="mailto:swarupbiswal07@gmail.com"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+        <a href="https://github.com/SWARUPZ" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/swarup-biswal-04a939150/" target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://twitter.com/Swarupbiswal8" target="_blank"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+      </div>
+      <div class="col-12 copyright">
+        <span style="font-weight: 600"> &copy; 2023 </span>
+        <span style="font-weight: 900; margin: 0 0.6rem"> • </span>
+        <a
+          href="./index.html"
+          style="
+            color: #54d04d;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: 600;
+          "
+        >
+          Swarup Biswal
+        </a>
+      </div>
+    </div>
+    <script src="./assets/scripts/main.js"></script>
+  </body>
+</html>

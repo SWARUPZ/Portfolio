@@ -1,0 +1,242 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hans Pattnaik</title>
+    <link rel="shortcut icon" href="./assets/codeImg.jpg" type="image/x-icon" />
+    <link href="assets/styles/main.css" rel="stylesheet" />
+    <link href="assets/styles/work.css" rel="stylesheet" />
+    <link href="assets/styles/header.css" rel="stylesheet" />
+    <link href="assets/styles/footer.css" rel="stylesheet" />
+    <link href="assets/styles/lightTheme.css" rel="stylesheet" id="themeLink" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body onload="themeUpdate()">
+    <div class="row header">
+      <div class="mobileHeader">
+        <div class="col-12 firstRow">
+          <div class="portfolioName">
+            <a href="index.html">Hans Pattnaik</a>
+          </div>
+          <div class="themeBtnDiv">
+            <i
+              class="fa-solid themeBtn themeBtn1 fa-lightbulb"
+              onclick="changeTheme1()"
+            ></i>
+          </div>
+        </div>
+        <div class="col-12 menuList">
+          <a href="./index.html"><input type="button" value="Home" /></a>
+          <a href="work.html"><input type="button" value="Work" /></a>
+          <a href="contact.html"><input type="button" value="Contact" /></a>
+        </div>
+      </div>
+      <div class="col-12 desktopHeader">
+        <div class="col-4 portfolioName">
+          <a href="index.html">Hans Pattnaik</a>
+        </div>
+        <div class="col-6 menuList">
+          <a href="./index.html"><input type="button" value="Home" /></a>
+          <a href="work.html"><input type="button" value="Work" /></a>
+          <a href="contact.html"><input type="button" value="Contact" /></a>
+        </div>
+        <div class="col-2 themeBtnDiv">
+          <i
+            class="fa-solid themeBtn themeBtn2 fa-lightbulb"
+            onclick="changeTheme2()"
+          ></i>
+        </div>
+      </div>
+    </div>
+    <div class="row main">
+      <div class="row workMainBox">
+        <h1>
+          <u style="color: rgba(255, 26, 86, 0.76); font-size: 1.8rem"
+            >ACHIEVEMENTS</u
+          >
+        </h1>
+        <div class="col-10 workBox">
+          <div class="workName">Google Codejam</div>
+          <div class="workDescription col-12">
+            <div class="workImage col-7">
+              <img
+                src="./assets/achievements/code_jam.png"
+                alt="code_jam_certificate"
+                class="col-12"
+              />
+            </div>
+            <div class="workText col-5">
+              <p>
+                <span class="capitalise"> T </span>
+                his was the first ever codejam that I gave. Obviously this is
+                not the best, but good enough for a first try.
+              </p>
+              <a
+                href="./assets/achievements/code_jam.pdf"
+                class="viewWork"
+                target="_blank"
+              >
+                View Certificate
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 workBox">
+          <div class="workName">Google Kickstart</div>
+          <div class="workDescription col-12">
+            <div class="workImage col-7">
+              <img
+                src="./assets/achievements/kickstart.png"
+                alt="code_jam_certificate"
+                class="col-12"
+              />
+            </div>
+            <div class="workText col-5">
+              <p>
+                <span class="capitalise"> T </span>
+                his was my first official kickstart round. I learnt a lot of new
+                things by upsolving the questions in this round.
+              </p>
+              <a
+                href="./assets/achievements/kickstart.pdf"
+                class="viewWork"
+                target="_blank"
+              >
+                View Certificate
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 workBox">
+          <div class="workName">Google Hashcode</div>
+          <div class="workDescription col-12">
+            <div class="workImage col-7">
+              <img
+                src="./assets/achievements/hash_code.png"
+                alt="code_jam_certificate"
+                class="col-12"
+              />
+            </div>
+            <div class="workText col-5">
+              <p>
+                <span class="capitalise"> T </span>
+                his was my first attempt of the google Hashcode. Whatever be the
+                score , at the end I was proud of my group members for showing
+                excellent teamwork.
+              </p>
+              <a
+                href="./assets/achievements/hash_code.pdf"
+                class="viewWork"
+                target="_blank"
+              >
+                View Certificate
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row workMainBox">
+        <h1>
+          <u style="color: rgba(255, 26, 86, 0.76); font-size: 1.8rem"
+            >PROJECTS</u
+          >
+        </h1>
+        <div class="col-10 workBox">
+          <div class="workName">SFML Snake Game</div>
+          <div class="workDescription col-12">
+            <div class="workImage col-7">
+              <img
+                src="./assets/achievements/hash_code.png"
+                alt="code_jam_certificate"
+                class="col-12"
+              />
+            </div>
+            <div class="workText col-5">
+              <p>
+                <span class="capitalise"> M </span>
+                y first try at using the SFML Library to render 2D stuff
+                (basically reinventing "Snake" game) in C++. Learned many
+                concepts of game design like timed updates, making sprites,
+                positioning and rendering them.
+              </p>
+              <a
+                href="https://github.com/HANS-2002/Snake-SFML"
+                class="viewWork"
+                target="_blank"
+              >
+                View Project On Github
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 workBox">
+          <div class="workName">SFML TIC TAC TOE Game</div>
+          <div class="workDescription col-12">
+            <div class="workImage col-7">
+              <img
+                src="./assets/achievements/hash_code.png"
+                alt="code_jam_certificate"
+                class="col-12"
+              />
+            </div>
+            <div class="workText col-5">
+              <p>
+                <span class="capitalise"> A </span>
+                successful attempt to remake the old school TIC TAC TOE with my
+                touch. Learnt a ton, including stuff like efficient variable
+                management and game states.
+              </p>
+              <a
+                href="https://github.com/HANS-2002/TIC-TAC-TOE-SFML"
+                class="viewWork"
+                target="_blank"
+              >
+                View Project On Github
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row footer">
+      <div class="col-12 socials">
+        <a href="mailto:pattnaikhans@gmail.com"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+        <a href="https://github.com/HANS-2002" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/hanspattnaik/" target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://twitter.com/hanspattnaik" target="_blank"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+      </div>
+      <div class="col-12 copyright">
+        <span style="font-weight: 600"> &copy; 2022 </span>
+        <span style="font-weight: 900; margin: 0 0.6rem"> • </span>
+        <a
+          href="./index.html"
+          style="
+            color: #ff7b92;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: 600;
+          "
+        >
+          Hans Pattnaik
+        </a>
+      </div>
+    </div>
+    <script src="./assets/scripts/main.js"></script>
+  </body>
+</html> -->
